@@ -1,0 +1,48 @@
+.home-container {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .home-content {
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  
+  .home-content h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+  
+  .home-links {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-links a {
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: #557ae9;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .home-links a:hover {
+    color: #17a2b8;
+  }
+  
+  .home-icon {
+    margin-bottom: 0.5rem;
+  }
+  

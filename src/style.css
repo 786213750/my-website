@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary-color: #0074D9;
+    --secondary-color: #2ECC40;
+    --bg-color: #f5f5f5;
+  }
+/* Set default font styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Open Sans';
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: var(--bg-color);
+    display: contents;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  /* Center the main content area */
+  .main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    color: var(--primary-color);
+  }
+  
+  a {
+    color: var(--secondary-color);
+  }
+  
+  /* Add spacing between elements */
+  h1, h2, h3, h4, h5, h6 {
+    margin: 1rem 0;
+  }
+  
+  p, ul, ol, pre, table, blockquote {
+    margin: 1rem 0;
+  }
+  
+  /* Style links */
+  a {
+    color: #d90e00;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: #0056B3;
+  }
+  
+  /* Style buttons */
+  button, .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover, .button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  /* Style forms */
+  input, select, textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: border-color 0.2s ease;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #0074D9;
+  }
+  
+  /* Add basic layout styles */
+  .header {
+    background-color: #0074D9;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .footer {
+    background-color: #ddd;
+    padding: 1rem;
+  }
+
+  .box {
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+
+  
+  
+  
+  /* Responsive styles for mobile devices */
+  @media (max-width: 767px) {
+    .main-content {
+      padding: 1rem;
+    }
+  }
+
+  

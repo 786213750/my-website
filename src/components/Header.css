@@ -1,0 +1,11 @@
+.App-logo {
+    width: 10vw;
+    height: 10vw;  
+  }
+
+.App-logo svg {
+  width: 100%;
+  height: auto;
+  max-width: 90px;
+  max-height: 90px;
+}

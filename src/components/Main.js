@@ -1,11 +1,12 @@
 import React from 'react';
-import { Home, About, Contact } from './';
+import experiences from '../data/ExperienceStaticData';
+import { Home, About, Experience} from './';
 
 const Main = () => (
 	<main>
 		<Home />
 		<About />
-		<Contact />
+		<Experience experiences={experiences} />
 	</main>
 );
 

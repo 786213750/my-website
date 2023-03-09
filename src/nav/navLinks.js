@@ -1,5 +1,6 @@
 export const navLinks = [
 	{ navLinkId: 'Home', scrollToId: 'homeContainer' },
 	{ navLinkId: 'About', scrollToId: 'aboutContainer' },
-	{ navLinkId: 'Contact', scrollToId: 'contactContainer' },
+	{ navLinkId: 'Experience', scrollToId: 'expContainer' },
+	//{ navLinkId: 'Contact', scrollToId: 'contactContainer' },
 ];

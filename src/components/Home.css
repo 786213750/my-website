@@ -1,9 +1,9 @@
-.home-container {
+.home-content {
     background-image: url('../images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: calc(100vh - 80px);
+    height: calc(100vh);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,5 +44,9 @@
   
   .home-icon {
     margin-bottom: 0.5rem;
+  }
+
+  section div{
+    display: inline;
   }
   

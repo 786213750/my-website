@@ -1,0 +1,27 @@
+.slick-prev:before,
+.slick-next:before {
+  color: yellow;
+}
+
+.slick-slide img {
+    display: block;
+    width: 95%;
+    height: auto;
+ }
+
+ .slick-prev {
+    left: 0px;
+}
+
+.slick-next {
+    right: 0px;
+}
+
+
+ section {
+    display: flex;
+    height: auto;
+
+    align-items: center;
+    flex-direction: column;
+}

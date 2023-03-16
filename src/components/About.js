@@ -9,7 +9,7 @@ function About() {
   return (
     <section ref={aboutRef} id='aboutContainer'>
       <div>
-        <h1>About Me</h1>
+        <h3>About Me</h3>
           <p>
             I am a machine learning engineer with experience developing automated ML platforms and
             model serving microservices with low latency and high request frequency.

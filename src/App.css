@@ -6,3 +6,10 @@
 	margin: 0;
 	padding: 0;
 }
+
+.appContainer {
+	overflow-y: scroll;
+	height: 100vh;
+  	scroll-snap-points-y: repeat(10vh);
+	scroll-snap-type: y mandatory;
+}

@@ -3,12 +3,6 @@
   color: yellow;
 }
 
-.slick-slide img {
-    display: block;
-    width: 95%;
-    height: auto;
- }
-
  .slick-prev {
     left: 0px;
 }

@@ -1,12 +1,28 @@
 nav {
+	display: flex;
+	align-items: center;
+    justify-content: space-evenly;
 	width: 100%;
 	position: sticky;
 	z-index: 10;
 	top: 0;
 	padding: 1.2em 0;
 	color: white;
-	background-color: var(--darkAccent);
+	background-color: rgb(44 48 111 / 93%);
 	max-height: 4em;
+}
+
+nav span svg {
+	width: 5vw;
+	height: auto;
+}
+
+nav span.logo:hover {
+	border-bottom: rgba(255, 255, 255, 0);
+}
+
+nav span.logo {
+	left: 20px;
 }
 
 nav span {

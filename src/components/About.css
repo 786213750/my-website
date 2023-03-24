@@ -1,0 +1,18 @@
+section#aboutContainer {
+    background-image: url('../images/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh);
+}
+
+.about-content {
+    width: 70%;
+    height: auto;
+    
+}
+
+p {
+    font-size: large;
+    
+}

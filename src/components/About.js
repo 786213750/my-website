@@ -12,7 +12,7 @@ function About() {
         <h3>About Me</h3>
         <p>
           I am a <b>machine learning engineer</b> with experience developing <b>automated ML platforms</b> and
-          <b>model serving microservices</b> with low latency and high request frequency.
+          <b> model serving microservices</b> with low latency and high request frequency.
           I have worked with a variety of technologies, including <b>Python, Go, SQL,
           TensorFlow, Keras, PySpark, Docker, Kubernetes, GCP, and AWS</b>.
           I am skilled in front-end development using <b>React, HTML, and CSS</b>,

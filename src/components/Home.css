@@ -46,7 +46,8 @@
     margin-bottom: 0.5rem;
   }
 
-  section div{
+  div.Typewriter{
     display: inline;
+    line-height: 1.6em;
   }
   

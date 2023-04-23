@@ -1,40 +1,60 @@
 import React from "react";
-import { useNav } from '../customHooks/useNav';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import './Page.css';
-import './Experience.css';
-
+import { useNav } from "../customHooks/useNav";
+import Flickity from "react-flickity-component";
+import "flickity/dist/flickity.min.css";
+import "./Page.css";
+import "./Experience.css";
+//import BlankLogo from "../images/blank.png";
 
 const Experience = ({ experiences }) => {
+  const FlickityOptions = {
+    pageDots: false,
+    groupCells: "65%",
+    wrapAround: false,
+    imagesLoaded: true,
+  };
 
-  const expRef = useNav('Experience');
+  const expRef = useNav("Experience");
   return (
-    <section ref={expRef} id='expContainer'>
+    <section ref={expRef} id="expContainer">
       <h3>Experience</h3>
-      <div className="experience-container">
-        <Slider dots={true} infinite={true} speed={500} slidesToShow={2} slidesToScroll={1}>
-          {experiences.map((experience, index) => (
-            <div className='experience-content' key={index}>
-              <a href={experiences[index].website} target="_blank" rel="noopener noreferrer">
-                <h2>{experiences[index].position}</h2>
-                <p>
-                  {experiences[index].company} - {experiences[index].location}
-                </p>
-              </a>
-              <ul>
-                {experiences[index].bullets.map((responsibility, idx) => (
-                  <li key={idx}>{responsibility}</li>
-                ))}
-              </ul>
+      <Flickity
+        className={"expCarousel"}
+        elementType={"div"}
+        options={FlickityOptions}
+        disableImagesLoaded={false}
+      >
+        {experiences.map((experience, index) => (
+          <div className="carouselCell" key={index}>
+            <div className="cellInner">
+              <div className="cardTitle">
+                <a
+                  href={experience.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={experience.logo} alt="" />
+                </a>
+                <div>
+                  <p>{experience.position}
+                  </p>
+                  {experience.company} <br />
+                  {experience.startDate} - {experience.endDate}<br />
+                </div>
+              </div>
+              <div className="cardContent">
+                <ul>
+                  {experience.bullets.map((responsibility, idx) => (
+                    <li key={idx}>{responsibility}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
-          ))}
-        </Slider>
-      </div>
+          </div>
+        ))}
+      </Flickity>
     </section>
   );
-}
-
+};
 
 export default Experience;

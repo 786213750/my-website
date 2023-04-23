@@ -1,11 +1,18 @@
+import EonLogo from "../images/eon-logo.png";
+import KismetLogo from "../images/kismet-logo.png";
+import FlitexLogo from "../images/flitex-logo.png";
+
+
 const experiences = [  
   
   {    
     position: "Machine Learning Engineer",    
-    company: "Curate Mobile",
+    company: "Kismet.ai",
     location: "Toronto, ON",   
     startDate: "May 2021",    
-    endDate: "Sept 2022",    
+    endDate: "Sept 2022",
+    website: "https://kismet.ai/", 
+    logo: KismetLogo,   
     bullets: [      
         "Developed an automated ML platform for a real-time bidding system",      
         "Designed and developed model serving microservice in Golang for RTB system with <50ms latency and 50,000 request/s of frequency",      
@@ -20,6 +27,8 @@ const experiences = [
     location: "Toronto, ON",
     startDate: "Jan 2021",
     endDate: "May 2021",
+    website: "https://flitex.net/",
+    logo: FlitexLogo,
     bullets: [
       "Developed an end-to-end flight route planner for customers",
       "Built a flight route optimizer using A* algorithm with Python that increased efficiency by 5%",
@@ -34,6 +43,8 @@ const experiences = [
     location: "Vancouver, BC",
     startDate: "April 2020",
     endDate: "Jan 2021",
+    website: "https://eonmedia.ai/",
+    logo: EonLogo,
     bullets: [
       "Developed an image detection model and scaled it to meet customers’ requirements",
       "Developed logo extraction with Python and launched Auto Metadata Extraction feature",

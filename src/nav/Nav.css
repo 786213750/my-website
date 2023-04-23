@@ -15,6 +15,7 @@ nav {
 nav span svg {
 	width: 5vw;
 	height: auto;
+	min-width: 50px;
 }
 
 nav span.logo:hover {

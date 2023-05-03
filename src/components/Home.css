@@ -1,5 +1,5 @@
 .home-content {
-    background-image: url('../images/background.jpg');
+    /*background-image: url('../images/background.jpg');*/
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,6 +19,7 @@
   .home-content h1 {
     font-size: 3.5rem;
     font-weight: 500;
+    line-height: 3.6rem;
   }
   
   .home-links {
@@ -48,6 +49,5 @@
 
   div.Typewriter{
     display: inline;
-    line-height: 1.6em;
   }
   

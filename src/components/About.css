@@ -3,14 +3,17 @@ section#aboutContainer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: calc(100vh);
 }
 
 .about-content {
     width: 70%;
     height: auto;
-    
+    margin: 50px;
 }
+
+.about-content h3 {
+    line-height: 2.6rem;
+  }
 
 .about-content p {
     font-size: large;

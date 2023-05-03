@@ -1,15 +1,17 @@
-import { Nav } from './nav';
-import { Main } from './components';
-import NavProvider from './context/NavContext';
-import './App.css';
+import { Main, ProjectDisplay } from './components';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import './styles/App.css';
 
 function App() {
 	return (
-		<div className='appContainer'>
-			<NavProvider>
-				<Nav />
-				<Main />
-			</NavProvider>
+		<div className='App'>
+			<Router>
+				<Routes>
+					<Route path='/' element={<Main />}/>
+					<Route path="/project/:id" element={<ProjectDisplay />} />
+				</Routes>
+			</Router>
+			
 		</div>
 	);
 }

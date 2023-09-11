@@ -3,7 +3,7 @@ import KismetLogo from "../images/kismet-logo.png";
 import FlitexLogo from "../images/flitex-logo.png";
 
 
-const experiences = [  
+const ExperienceList = [  
   
   {    
     position: "Machine Learning Engineer",    
@@ -68,4 +68,4 @@ const experiences = [
 ];
 
 
-export default experiences;
+export default ExperienceList;

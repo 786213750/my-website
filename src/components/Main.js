@@ -1,5 +1,6 @@
 import React from "react";
-import experiences from "../data/ExperienceStaticData";
+import ExperienceList from "../data/ExperienceStaticData";
+import ProjectList from "../data/ProjectStaticData";
 import { Home, About, Experience, Skills, Projects } from "./";
 import NavProvider from '../context/NavContext';
 import { Nav } from '../nav';
@@ -11,8 +12,8 @@ const Main = () => (
       <Home />
       <About />
       <Skills />
-      <Experience experiences={experiences} />
-      <Projects />
+      <Experience experiences={ExperienceList} />
+      <Projects projects={ProjectList} />
     </NavProvider>
   </main>
 );

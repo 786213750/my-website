@@ -37,3 +37,5 @@ export const ProjectList = [
     skills: "React Native,JavaScript,HTML,CSS",
   },
 ];
+
+export default ProjectList;

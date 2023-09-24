@@ -11,7 +11,7 @@ const ExperienceList = [
     location: "Toronto, ON",   
     startDate: "May 2021",    
     endDate: "Sept 2022",
-    website: "https://kismet.ai/", 
+    website: "https://curatemobile.com/", 
     logo: KismetLogo,   
     bullets: [      
         "Developed an automated ML platform for a real-time bidding system",      

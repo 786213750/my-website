@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.fb2f077a.css",
+    "main.js": "/my-website/static/js/main.dcce2a34.js",
+    "static/media/bg2.jpg": "/my-website/static/media/bg2.1178d33e235c30e59491.jpg",
+    "static/media/proj6.png": "/my-website/static/media/proj6.bbda91ca7f209247913f.png",
+    "static/media/proj5.jpg": "/my-website/static/media/proj5.0648813998893b8c53d0.jpg",
+    "static/media/proj3.webp": "/my-website/static/media/proj3.419d7d3eb4e124126660.webp",
+    "static/media/proj2.jpg": "/my-website/static/media/proj2.496e4d289eaa0f409ab8.jpg",
+    "static/media/proj1.jpg": "/my-website/static/media/proj1.3fb0bdc7583872ea12b3.jpg",
+    "static/media/eon-logo.png": "/my-website/static/media/eon-logo.45e3fd0889da8f960417.png",
+    "static/media/proj4.webp": "/my-website/static/media/proj4.21aa3100d2e1859f6029.webp",
+    "static/media/TJ-logo2.svg": "/my-website/static/media/TJ-logo2.51fdb8fc0e34657d602b2a87df8ab529.svg",
+    "index.html": "/my-website/index.html",
+    "main.fb2f077a.css.map": "/my-website/static/css/main.fb2f077a.css.map",
+    "main.dcce2a34.js.map": "/my-website/static/js/main.dcce2a34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb2f077a.css",
+    "static/js/main.dcce2a34.js"
+  ]
+}

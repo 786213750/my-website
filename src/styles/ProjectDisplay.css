@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,16 @@
     margin-top: 50px;
     color: #3e497a;
     font-size: 35px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .project h2 {
+    margin-top: 35px;
+    color: #3e497a;
+    font-size: 35px;
+    line-height: 1.2;
+    text-align: center;
   }
   .project img {
     width: 700px;
@@ -18,8 +28,9 @@
   }
   
   .project p {
-    font-size: 40px;
+    font-size: 25px;
     color: #3e497a;
+    line-height: 1;
   }
   
   .project svg {

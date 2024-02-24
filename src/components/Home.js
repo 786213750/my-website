@@ -16,8 +16,8 @@ const Home = () => {
     if (location.state?.fromProjectItem) {
       const projectsContainer = document.getElementById("projectsContainer");
       if (projectsContainer) {
-        // Scroll to the projects container
-        projectsContainer.scrollIntoView({ behavior: "smooth" });
+        // Scroll to the projects container { behavior: "smooth" }
+        projectsContainer.scrollIntoView();
       }
       // Replace the current state to avoid scrolling on refresh
       navigate(location.pathname, { ...location, state: {} });
